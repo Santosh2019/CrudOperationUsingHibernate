@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3013" started-at="2018-07-14T14:21:46Z" finished-at="2018-07-14T14:21:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3013" started-at="2018-07-14T14:21:46Z" finished-at="2018-07-14T14:21:49Z">
+      <class name="com.scp.CrudOperationUsingHibernate.DataProvider1">
+        <test-method status="PASS" signature="authanticate(int, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.DataProvider1@82f6ef]" name="authanticate" duration-ms="2530" started-at="2018-07-14T19:51:46Z" data-provider="getdata" finished-at="2018-07-14T19:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authanticate -->
+        <test-method status="PASS" signature="authanticate(int, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.DataProvider1@82f6ef]" name="authanticate" duration-ms="172" started-at="2018-07-14T19:51:49Z" data-provider="getdata" finished-at="2018-07-14T19:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Swapnil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authanticate -->
+        <test-method status="PASS" signature="authanticate(int, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.DataProvider1@82f6ef]" name="authanticate" duration-ms="156" started-at="2018-07-14T19:51:49Z" data-provider="getdata" finished-at="2018-07-14T19:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authanticate -->
+        <test-method status="PASS" signature="authanticate(int, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.DataProvider1@82f6ef]" name="authanticate" duration-ms="140" started-at="2018-07-14T19:51:49Z" data-provider="getdata" finished-at="2018-07-14T19:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ninad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authanticate -->
+      </class> <!-- com.scp.CrudOperationUsingHibernate.DataProvider1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
