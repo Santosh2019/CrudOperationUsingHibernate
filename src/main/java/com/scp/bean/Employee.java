@@ -9,7 +9,7 @@ import javax.persistence.Table;
 public class Employee {
 @GeneratedValue(strategy=GenerationType.AUTO)
 @Id
-	private int employeeId;
+	private Integer employeeId;
 	private String employeeName;
 	
 	public Employee() {
@@ -20,8 +20,8 @@ public class Employee {
 		this.employeeId = employeeId;
 		this.employeeName = employeeName;
 	}
-	public int getEmployeeId() {
-		return employeeId;
+	public String getEmployeeId() {
+		return "employeeId";
 	}
 	public String getEmployeeName() {
 		return employeeName;
@@ -38,11 +38,3 @@ public class Employee {
 	}
 }
 
-class InsertAlphabetsOnly extends Exception{
-	/**
-	 *
-	 *
-	 *
-	 */
-	
-}

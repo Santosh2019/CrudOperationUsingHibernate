@@ -1,4 +1,5 @@
-package com.scp.CrudOperationUsingHibernate;
+package com.scp.UtilityClass;
+
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -6,31 +7,17 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.DataProvider;  
-import org.testng.annotations.Test;
 
-import com.scp.TestLogic.TestLogic;
+public class readWriteExcelUtility {
 
-import junit.framework.Assert;
+	public static void main(String[] args) {
 
-public class DataProvider1 {
-	
-	@Test(dataProvider="getDataDemo")	
-	public void authanticate(int employeeId, String employeeName, String result) {
-		
-	//	System.out.println("inside method **********");
-		boolean b1=false;
-		if(result.equalsIgnoreCase("true")) {
-			b1=true;
-			
-		}
-		System.out.println("id "+employeeId+ "name "+employeeName+ "eslt ="+TestLogic.login(employeeId,employeeName));
-			Assert.assertEquals(b1, TestLogic.login(employeeId,employeeName));
-		
+		readTestData();
+
 	}
 
-	@DataProvider(name="getDataDemo")
-
+	@SuppressWarnings("resource")
+	
 	public static Object[][] readTestData() {
 
 		Object[][] testData = new Object[8][3];
@@ -97,34 +84,5 @@ public class DataProvider1 {
 		System.out.println(testData[0][2].toString());
 		return testData;
 
-	}
-
-	
-	
-	
-	
-	@DataProvider(name="getdata")
-	public Object[][] getData1() {
-		
-		Object object[][]=new Object[4][3];
-		object[0][0]=12;
-		object[0][1]="Swapnil";
-		object[0][2]="true";
-		
-		
-		object[1][0]=13;
-		object[1][1]="Sachin";
-		object[1][2]="true";
-	
-		object[2][0]=13;
-		object[2][1]="Sachin";
-		object[2][2]="true";
-		
-		object[3][0]=14;
-		object[3][1]="Ninad";
-		object[3][2]="true";
-		
-		
-		return object;
 	}
 }

@@ -1,32 +1,33 @@
-/*package com.scp.UtilityClass;
+package com.scp.UtilityClass;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 public class Utility {
 
-	public static final SessionFactory sessionFacctory;
-	static {
-		try {
-			Configuration configuration = new Configuration().configure();
-			sessionFacctory = configuration.buildSessionFactory();
-		} 
-		catch (Exception e) {
-			System.out.println(e.getMessage());
+	private  static SessionFactory sessionFactory=null;
+	public static SessionFactory getSessionFactory(){
+		if(sessionFactory==null) {
+			sessionFactory=new Configuration().configure().buildSessionFactory();
 		}
-
+		return sessionFactory;
 	}
-
-	public static final Session currentSession(){	
-			Session session=session.getSession();
-			if(session==null) {
-			session=sessionFacctory.openSession();
-			session.set
-			}
-			return null;
+	public  static void flushNCommit(Session session, Transaction tr) {
+		if(session!=null) {
+			session.flush();
+		}
+		if(tr!=null) {
+			tr.commit();
+		}
+		
+	}
+	public static void CloseSession(Session session) {
+		if(session!=null) {
+			session.close();
+		}
+	}
 	
-	
-
 }
-*/
+	
