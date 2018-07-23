@@ -1,0 +1,15 @@
+[FATAL] 2018-07-23 15:56:17,627 com.scp.TestLogic.TestLogic main - This is Fatal
+[ERROR] 2018-07-23 15:56:17,685 com.scp.TestLogic.TestLogic main - This is Error
+[WARN] 2018-07-23 15:56:17,729 com.scp.TestLogic.TestLogic main - This is Warn
+[DEBUG] 2018-07-23 15:56:17,773 com.scp.TestLogic.TestLogic main - This is debug
+[TRACE] 2018-07-23 15:56:17,803 com.scp.TestLogic.TestLogic main - This is Trace
+[FATAL] 2018-07-23 15:56:37,837 com.scp.TestLogic.TestLogic main - This is Fatal
+[ERROR] 2018-07-23 15:56:37,874 com.scp.TestLogic.TestLogic main - This is Error
+[WARN] 2018-07-23 15:56:37,904 com.scp.TestLogic.TestLogic main - This is Warn
+[DEBUG] 2018-07-23 15:56:37,938 com.scp.TestLogic.TestLogic main - This is debug
+[TRACE] 2018-07-23 15:56:37,970 com.scp.TestLogic.TestLogic main - This is Trace
+[FATAL] 2018-07-23 15:56:58,004 com.scp.TestLogic.TestLogic main - This is Fatal
+[ERROR] 2018-07-23 15:56:58,127 com.scp.TestLogic.TestLogic main - This is Error
+[WARN] 2018-07-23 15:56:58,159 com.scp.TestLogic.TestLogic main - This is Warn
+[DEBUG] 2018-07-23 15:56:58,193 com.scp.TestLogic.TestLogic main - This is debug
+[TRACE] 2018-07-23 15:56:58,227 com.scp.TestLogic.TestLogic main - This is Trace

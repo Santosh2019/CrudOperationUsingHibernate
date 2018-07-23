@@ -1,0 +1,5 @@
+[FATAL] 2018-07-23 15:57:18,270 com.scp.TestLogic.TestLogic main - This is Fatal
+[ERROR] 2018-07-23 15:57:18,397 com.scp.TestLogic.TestLogic main - This is Error
+[WARN] 2018-07-23 15:57:18,459 com.scp.TestLogic.TestLogic main - This is Warn
+[DEBUG] 2018-07-23 15:57:18,493 com.scp.TestLogic.TestLogic main - This is debug
+[TRACE] 2018-07-23 15:57:18,534 com.scp.TestLogic.TestLogic main - This is Trace

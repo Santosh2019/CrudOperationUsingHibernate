@@ -7,34 +7,36 @@ import javax.persistence.Table;
 @Entity
 @Table
 public class Employee {
-@GeneratedValue(strategy=GenerationType.AUTO)
 @Id
-	private Integer employeeId;
-	private String employeeName;
+	private String UserName;
+	private String Password;
 	
 	public Employee() {
 		super();
 	}
-	public Employee(int employeeId, String employeeName) {
-		super();
-		this.employeeId = employeeId;
-		this.employeeName = employeeName;
+
+	public String getUserName() {
+		return UserName;
 	}
-	public String getEmployeeId() {
-		return "employeeId";
+
+	public String getPassword() {
+		return Password;
 	}
-	public String getEmployeeName() {
-		return employeeName;
+
+	public void setUserName(String userName) {
+		UserName = userName;
 	}
-	public int setEmployeeId(int employeeId) {
-		return this.employeeId = employeeId;
+
+	public void setPassword(String password) {
+		Password = password;
 	}
-	public void setEmployeeName(String employeeName) {
-		this.employeeName = employeeName;
-	}
+
 	@Override
 	public String toString() {
-		return "\n Employee employeeId=" + employeeId + ", employeeName=" + employeeName + "";
+		return "Employee [UserName=" + UserName + ", Password=" + Password + "]";
 	}
+	
+
 }
+	
 

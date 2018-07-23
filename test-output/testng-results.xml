@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="953" started-at="2018-07-20T06:34:41Z" finished-at="2018-07-20T06:34:42Z">
+  <suite name="Default suite" duration-ms="829" started-at="2018-07-20T15:19:06Z" finished-at="2018-07-20T15:19:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="953" started-at="2018-07-20T06:34:41Z" finished-at="2018-07-20T06:34:42Z">
+    <test name="Default test" duration-ms="829" started-at="2018-07-20T15:19:06Z" finished-at="2018-07-20T15:19:06Z">
       <class name="com.scp.CrudOperationUsingHibernate.PerformAuthantiCation">
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="15" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="15" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="16" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="4" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -47,7 +47,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="2" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PASSWORD_CANT_BE_EMPTY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="1" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PASSWORD_CANT_BE_EMPTY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="2" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value>
@@ -68,51 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[USERNAME_PASSWORD_INVALID]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="1" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PASSWORD_CANT_BE_EMPTY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sdfs2]]>
               </value>
             </param>
             <param index="1">
@@ -129,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="1" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value>
@@ -150,11 +148,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="0" started-at="2018-07-20T12:04:42Z" data-provider="getTestData" finished-at="2018-07-20T12:04:42Z">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scp.CrudOperationUsingHibernate.PerformAuthantiCation@651fd0]" name="getData" duration-ms="1" started-at="2018-07-20T20:49:06Z" data-provider="getTestData" finished-at="2018-07-20T20:49:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[sdfs2]]>
               </value>
             </param>
             <param index="1">

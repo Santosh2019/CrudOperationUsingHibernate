@@ -54,8 +54,7 @@ public class readWriteExcelUtility {
 						// System.out.println((int)singleCell.getNumericCellValue()+"|");
 					} else if (singleCell.getCellType() == 1) {
 
-						String cellValue = singleCell.getStringCellValue().equals("NA") ? null
-								: singleCell.getStringCellValue();
+						String cellValue = singleCell.getStringCellValue().equals("NA") ? null: singleCell.getStringCellValue();
 
 						testData[rowCount][cellCount] = cellValue;
 						cellCount++;
@@ -77,11 +76,11 @@ public class readWriteExcelUtility {
 				e.printStackTrace();
 			}
 		}
-		System.out.println(testData[0][0].toString());
+		System.out.println("Helllllllo"+testData[0][0].toString());
 
-		System.out.println(testData[0][1].toString());
+		System.out.println("Helllllllo"+testData[0][1].toString());
 
-		System.out.println(testData[0][2].toString());
+		System.out.println("Helllllllo"+testData[0][2].toString());
 		return testData;
 
 	}

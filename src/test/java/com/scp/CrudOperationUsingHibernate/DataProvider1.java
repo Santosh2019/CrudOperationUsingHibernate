@@ -16,7 +16,7 @@ import junit.framework.Assert;
 public class DataProvider1 {
 	
 	@Test(dataProvider="getDataDemo")	
-	public void authanticate(int employeeId, String employeeName, String result) {
+	public void authanticate(String UserName, String Password, String result) {
 		
 	//	System.out.println("inside method **********");
 		boolean b1=false;
@@ -24,8 +24,8 @@ public class DataProvider1 {
 			b1=true;
 			
 		}
-		System.out.println("id "+employeeId+ "name "+employeeName+ "eslt ="+TestLogic.login(employeeId,employeeName));
-			Assert.assertEquals(b1, TestLogic.login(employeeId,employeeName));
+		System.out.println(/*"id "+employeeId+ "name "+employeeName+ "eslt ="+*/TestLogic.login(UserName,Password));
+			Assert.assertEquals(b1, TestLogic.login(UserName,Password));
 		
 	}
 
@@ -67,8 +67,7 @@ public class DataProvider1 {
 						// System.out.println((int)singleCell.getNumericCellValue()+"|");
 					} else if (singleCell.getCellType() == 1) {
 
-						String cellValue = singleCell.getStringCellValue().equals("NA") ? null
-								: singleCell.getStringCellValue();
+						String cellValue = singleCell.getStringCellValue().equals("NA") ? null: singleCell.getStringCellValue();
 
 						testData[rowCount][cellCount] = cellValue;
 						cellCount++;
@@ -90,9 +89,9 @@ public class DataProvider1 {
 				e.printStackTrace();
 			}
 		}
-		System.out.println(testData[0][0].toString());
+		System.out.println("hello :"+testData[0][0].toString());
 
-		System.out.println(testData[0][1].toString());
+		System.out.println("hello 2:"+testData[0][1].toString());
 
 		System.out.println(testData[0][2].toString());
 		return testData;
@@ -100,9 +99,9 @@ public class DataProvider1 {
 	}
 
 	
+}
 	
-	
-	
+/*	
 	@DataProvider(name="getdata")
 	public Object[][] getData1() {
 		
@@ -127,4 +126,4 @@ public class DataProvider1 {
 		
 		return object;
 	}
-}
+}*/

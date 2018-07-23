@@ -18,7 +18,7 @@ public class PerformAuthantiCation {
 	public void getData(String userName, String password, String msg) {
 		System.out.println(userName+"--------"+password+"-------"+msg);
 		EmpController controller=new EmpController(); 
-		String actualMsg=controller.validateUserCredentails(userName, password);
+		String actualMsg =controller.validateUserCredentails(userName, password);
 		Assert.assertEquals(actualMsg, msg);
 	}
 }
